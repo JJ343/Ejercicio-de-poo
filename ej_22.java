@@ -1,4 +1,3 @@
-package Trabajo_en_grupo_1.ej_22;
 
 import java.util.Scanner;
 
