@@ -1,4 +1,4 @@
-package Trabajo_en_grupo_1.ej_10;
+
 
 import java.util.Scanner;
 
