@@ -1,4 +1,3 @@
-package Trabajo_en_grupo_1.parte_2;
 
 
 public class Circulo {
