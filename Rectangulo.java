@@ -1,6 +1,5 @@
 
 
-
 public class Rectangulo {
     int base, altura;
     Rectangulo(int base, int altura){

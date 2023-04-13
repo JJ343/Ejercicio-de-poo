@@ -17,14 +17,14 @@ public class Triangulorectangulo {
 
     }
 
-    void determinarTipoTriangulo(){
+    public String determinarTipoTriangulo(){
         if((base==altura)&&(base==calcularHipotenusa())&&(altura==calcularHipotenusa())){
-            System.out.println("Es un triangulo equilatero");
+            return "Es un triangulo equilatero";
         }else if((base!=altura)&&(base!=calcularHipotenusa())&&(altura!=calcularHipotenusa())){
-            System.out.println("Es un triangulo escaleno");
+           return "Es un triangulo escaleno";
 
         }else{
-            System.out.println(("Es un triangulo isosceles"));
+           return  "Es un triangulo isosceles";
 
         }
 
