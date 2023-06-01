@@ -142,7 +142,7 @@ public class VentanaPrincipal extends JFrame implements
     }
 
     private void borrarLista() {
-        lista.borrarLista(); // Se eliminan todas las personas del vector
-        modelo.clear(); // Limpia el JList, la lista gráfica de personas
+        lista.borrarLista();
+        modelo.clear();
     }
 }
