@@ -1,8 +1,6 @@
 public class Velocista extends Ciclista {
-    private double potenciaPromedio; /* Atributo que define la potencia
-promedio de un velocista */
-    private double velocidadPromedio; /* Atributo que define la
-velocidad promedio de un velocista */
+    private double potenciaPromedio; 
+    private double velocidadPromedio; 
 
 public Velocista(int identificador, String nombre, double
         potenciaPromedio, double velocidadPromedio) {
@@ -28,7 +26,7 @@ public Velocista(int identificador, String nombre, double
     }
 
     protected void imprimir() {
-        super.imprimir(); // Invoca al método imprimir de la clase padre
+        super.imprimir(); 
         System.out.println("Potencia promedio = " + potenciaPromedio);
         System.out.println("Velocidad promedio = " +
                 velocidadPromedio);
