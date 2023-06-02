@@ -12,7 +12,4 @@ public class LocalComercial extends Local{
         System.out.println();
     }
 
-
-
-
 }
