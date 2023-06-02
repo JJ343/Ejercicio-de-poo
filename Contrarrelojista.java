@@ -1,5 +1,5 @@
 public class Contrarrelojista extends Ciclista {
-    // Atributo que define la velocidad máxima de un contrarrelojista
+   
     private double velocidadMáxima;
 
     public Contrarrelojista(int identificador, String nombre, double
