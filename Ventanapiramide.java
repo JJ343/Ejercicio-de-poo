@@ -20,7 +20,7 @@ public class Ventanapiramide extends  JFrame{
 
 
         calcularButton.addActionListener(new ActionListener() {
-            @Override
+            
             public void actionPerformed(ActionEvent e) {
                 Piramide piramide;
                 boolean error = false;
