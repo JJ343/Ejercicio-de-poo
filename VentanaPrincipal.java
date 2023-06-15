@@ -23,13 +23,7 @@ public class VentanaPrincipal extends JFrame{
             public void actionPerformed(ActionEvent e) {
                 JFrame  cilin = new VentanaCilindro();
                 cilin.setVisible(true);
-
-
-
-
-
             }
-
 
         });
         esferaButton.addActionListener(new ActionListener() {
@@ -38,7 +32,6 @@ public class VentanaPrincipal extends JFrame{
                 JFrame esfera = new VentanaEsfera();
                 esfera.setVisible(true);
             }
-
 
         });
         piramideButton.addActionListener(new ActionListener() {
