@@ -19,7 +19,7 @@ public class VentanaPrincipal extends JFrame{
 
 
         cilindroButton.addActionListener(new ActionListener() {
-            @Override
+            
             public void actionPerformed(ActionEvent e) {
                 JFrame  cilin = new VentanaCilindro();
                 cilin.setVisible(true);
@@ -33,7 +33,7 @@ public class VentanaPrincipal extends JFrame{
 
         });
         esferaButton.addActionListener(new ActionListener() {
-            @Override
+           
             public void actionPerformed(ActionEvent e) {
                 JFrame esfera = new VentanaEsfera();
                 esfera.setVisible(true);
@@ -42,7 +42,7 @@ public class VentanaPrincipal extends JFrame{
 
         });
         piramideButton.addActionListener(new ActionListener() {
-            @Override
+            
             public void actionPerformed(ActionEvent e) {
                 JFrame piramide =new Ventanapiramide();
                 piramide.setVisible(true);
